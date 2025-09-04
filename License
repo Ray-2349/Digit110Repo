@@ -1,0 +1,7 @@
+echo "# Digit110Repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ray-2349/Digit110Repo.git
+git push -u origin main
