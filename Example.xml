@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Quotes>
+<Quotes type="These are quotes from Optimus Prime in the Transformers Movies">
     <Transformers_4>Whenever you look to the stars, think of one of them as my soul. Defend this
         family, Autobots, as they have you. Defend all they can be. There are mysteries to the
         universe were never meant to solve, but who we are, and why we are here, are not among them.
@@ -20,4 +20,7 @@
         with the spark in my chest. A necessary sacrifice to bring peace to this planet. We cannot
         let the humans pay for our mistakes. It’s been an honor serving with you all. Autobots, roll
         out. </Transformers>
+    <Transformers_2> Our races united by a history long forgotten and a future we shall face
+        together. I am Optimus Prime, and I send this message so that our pasts will always be
+        remembered, for in those memories, we live on. </Transformers_2>
 </Quotes>
