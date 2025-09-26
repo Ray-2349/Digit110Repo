@@ -1,0 +1,25 @@
+start = xml
+xml = element xml {source, poem}
+source = element source {title+, author?, date?}
+title = element title {level+, text}
+level = element level {book?, inner}
+book = attribute book {empty}
+inner = attribute inner {empty}
+
+author = element author {text}
+date = element date {when?}
+when = attribute when {date}
+poem = element poem {title, lg+}
+
+lg = element lg {ln}
+ln = element ln {n+, text, mixed{place+, placeName, motif}}
+placeName= attribute placeName {ref, text}
+motif = attribute motif {text}
+place = element place {ref+,text}
+ref = element ref {Ha?, ja?, NYC-Harlem, NYC-Man, Cuba}
+NYC-Harlem = attribute NYC-Harlem {empty}
+NYC-Man = attribute NYC-Man {empty}
+Cuba = attribute Cuba {empty}
+Ha = attribute Ha {empty}
+ja = attribute ja {empty}
+n = attribute n {xsd:integer}
