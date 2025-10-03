@@ -1,16 +1,16 @@
 start = recipe
-recipe = element recipe {title?, paragraph+, IngredientList?, conclusion?}
+recipe = element recipe {title , para , IngredientList , conclusion}
 title = element title {text}
 
-paragraph = element paragraph {teacher?, book?, year?, n+, step+}
-step = element step {n+, text}
-teacher = attribute teacher {text}
+para = element para {n, mixed{(teacher | book | year | step)*}}
+step = element step {n+ | text}
+teacher = element teacher {text}
 book = element book {text}
 year = element year {text}
 n = attribute n {xsd:integer}
-IngredientList = element IngredientList {amount+, ing+}
+IngredientList = element IngredientList {amount+ | ing+}
 
-amount = element  amount {type?}
+amount = element  amount {type}
 ing = element ing {text}
 type = attribute type {text}
 conclusion = element conclusion {text}
