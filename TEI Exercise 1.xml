@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>March 12, 1909 Friday</title>
+            <title>March 17, 1909 Wednesday</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>It was made by Mary Behrend and given to her husband Ernst Behrend</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Molly on snowshoes that Mr. Weir got. Pretty Picyure is it not? </p>
+         <p>St. Patrick was a useful Saint, He frightened all his snakes away-
+         I wish He'd try his art on smoke around the Hammermill some day!</p>
+      </body>
+  </text>
+</TEI>
+
